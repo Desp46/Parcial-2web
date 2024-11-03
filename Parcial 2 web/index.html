@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <style>
+            @import url("./css/index.css");
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="buscar">
+            <div id="buscador">
+
+                <h2>Mars Rover Photos</h2>
+
+                <div id="barra">
+                    <label for="fecha">Earth date: </label>
+                    <input id="fecha" type="text" value="2015-07-2">
+                    <button id="tipo1" onclick="cargar_datos()">Find</button>                 
+                </div>
+                
+
+            </div>
+            <div id="datos">
+                <table id="marte">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Rover Name</th>
+                            <th>Camera</th>
+                            <th>Details</th>
+                        </tr>
+                   </thead>
+                   <tbody id="dos">
+
+                   </tbody>
+                </table>
+
+            </div>
+            <div id="botones">
+                <button id="desactivado" class="tipo2"  onclick="anterior()" disabled>Previous</button>
+                <button  class="tipo2"  onclick="siguiente()">Next</button>
+
+            </div>
+
+        </div>
+        <div id="encontrado">
+            <div id="titulo">
+                <h2 id="detalles"></h2>
+
+            </div>
+            <div id="cont_imagen">
+                <img id="imagenr" width="400">
+            </div>
+            <div id="info">
+                <center>
+                <h3 id="id"></h3>
+                <h3 id="martian"></h3>
+                <h3 id="last"></h3>
+                </center>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

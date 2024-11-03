@@ -1,0 +1,128 @@
+#contenedor{
+    display: flex;
+}
+
+#buscar{
+    border: 1px black solid;
+    flex: 1;
+    height: auto;
+}
+
+#encontrado{
+    border: 1px black solid;
+    flex: 1;
+    height:600px;
+}
+
+#buscador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+#barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+   
+
+}
+#datos{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#marte{
+
+    align-items: center;
+    justify-content: center;
+}
+
+#marte th{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+} 
+
+#marte td{
+    background-color: white;
+    
+}
+
+#botones{
+    
+    height: 200px;
+    width: 100%;
+}
+
+
+input{
+    margin-left: 5px;
+}
+
+#tipo1{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    width: 70px;
+    height: 30px;
+}
+
+.tipo2{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+#titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#cont_imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info h3{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+table {
+    width: 80%;
+    border-collapse: separate; 
+    border-spacing: 0 5px; 
+}
+
+tr {
+    border: 1px solid black; 
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+th, td {
+    padding: 8px; 
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2; 
+    
+}
